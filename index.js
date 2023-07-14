@@ -5,11 +5,7 @@ const goLight = document.getElementById("goLight");
 goButton.addEventListener("click", clickGo);
 
 function clickGo() {
-  if (true) {
-    goLight.classList.remove("go");
-    slowLight.classList.remove("slow");
-    stopLight.classList.remove("stop");
-  }
+  reset();
   goLight.classList.add("go");
 }
 
@@ -20,11 +16,7 @@ const slowLight = document.getElementById("slowLight");
 slowButton.addEventListener("click", clickSlow);
 
 function clickSlow() {
-  if (true) {
-    goLight.classList.remove("go");
-    slowLight.classList.remove("slow");
-    stopLight.classList.remove("stop");
-  }
+  reset();
   slowLight.classList.add("slow");
 }
 
@@ -35,10 +27,12 @@ const stopLight = document.getElementById("stopLight");
 stopButton.addEventListener("click", clickStop);
 
 function clickStop() {
-  if (true) {
-    goLight.classList.remove("go");
-    slowLight.classList.remove("slow");
-    stopLight.classList.remove("stop");
-  }
+  reset();
   stopLight.classList.add("stop");
+}
+
+function reset() {
+  goLight.classList.remove("go");
+  slowLight.classList.remove("slow");
+  stopLight.classList.remove("stop");
 }
