@@ -1,9 +1,5 @@
 # Stoplight Exercise
 
-As always, fork and clone this repository.
-
-![](stoplight.gif)
-
 ## Part 1
 
 Add DOM event listeners and handlers to toggle the on/off state of three bulbs.
