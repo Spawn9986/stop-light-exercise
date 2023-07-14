@@ -1,50 +1,23 @@
-# Stoplight Exercise
+<h1 align="center" id="title">Stop Light Exercise</h1>
 
-## Part 1
+<p align="center"><img src="https://socialify.git.ci/Spawn9986/stop-light-exercise/image?language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
 
-Add DOM event listeners and handlers to toggle the on/off state of three bulbs.
+<p id="description">Add DOM event listeners and handlers to toggle the on/off state of three bulbs.</p>
 
-- When a user clicks on the "Stop" button, toggle the [stop bulb's color][stop-color].
-- When a user clicks on the "Slow" button, toggle the [slow bulb's color][slow-color].
-- When a user clicks on the "Go" button, toggle the [go bulb's color][go-color].
+<p align="center">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Spawn9986/stop-light-exercise?logo=GitHub&style=flat-square"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Spawn9986/stop-light-exercise?logo=Github&style=flat-square"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/Spawn9986/stop-light-exercise?logo=GitHub&style=flat-square"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Spawn9986/stop-light-exercise?logo=GitHub&style=flat-square">
+</p>
 
-**TIP**: All three bulbs can be on/off independently of one another.
+<h2>Project Screenshots:</h2>
 
-### Resources
+<img src="https://github.com/Spawn9986/stop-light-exercise/blob/main/stoplight.gif" alt="project-screenshot" width="790" height="914/">
 
-- [MDN - `Document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-- [MDN - `EventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-- [MDN - `click`](https://developer.mozilla.org/en-US/docs/Web/Events/click)
-- [MDN -  `Element.classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+<h2>💻 Built with</h2>
 
-## Part 2
+Technologies used in the project:
 
-Add new DOM event listeners and handlers to log the mouse state of each button.
+- JavaScript
 
-- When a user's mouse enters a button, log `"Entered <textContent> button"` to the console.
-- When a user's mouse leaves a button, log `"Left <textContent> button"` to the console.
+<h2>👨‍💻 Try it Out Yourself</h2>
 
-**TIP:** Each event type will need a separate event listener.
-
-### Resources
-
-- [MDN - `mouseenter`](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter)
-- [MDN - `mouseleave`](https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave)
-- [MDN - `Event.target`](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
-
-## Bonus
-
-Add **one** DOM event listener and **one** handler to log the state of each bulb.
-
-- When a user clicks a button that just turned on, log`"<textContent> bulb on"` to the console.
-- When a user clicks a button that just turned off, log`"<textContent> bulb off"` to the console.
-
-**TIP:** A click on only a button should cause a message to be logged to the console.
-
-### Resources
-
-- [How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)
-
-[stop-color]: https://github.com/gSchool/stoplight-event-exercise/blob/master/index.css#L39
-[slow-color]: https://github.com/gSchool/stoplight-event-exercise/blob/master/index.css#L43
-[go-color]: https://github.com/gSchool/stoplight-event-exercise/blob/master/index.css#L47
+<a href="https://spawn9986.github.io/stop-light-exercise/">Live Demo</a>

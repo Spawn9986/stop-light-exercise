@@ -1,35 +1,35 @@
-//Go Light
+// ============ GLOBAL VARIABLES ==================
 const goButton = document.getElementById("goButton");
 const goLight = document.getElementById("goLight");
 
-goButton.addEventListener("click", clickGo);
+const slowButton = document.getElementById("slowButton");
+const slowLight = document.getElementById("slowLight");
+
+const stopButton = document.getElementById("stopButton");
+const stopLight = document.getElementById("stopLight");
+
+// ============== MAIN FUNCTION =======================
 
 function clickGo() {
   reset();
   goLight.classList.add("go");
 }
 
-//Slow Light
-const slowButton = document.getElementById("slowButton");
-const slowLight = document.getElementById("slowLight");
-
-slowButton.addEventListener("click", clickSlow);
-
 function clickSlow() {
   reset();
   slowLight.classList.add("slow");
 }
 
-//Stop Light
-const stopButton = document.getElementById("stopButton");
-const stopLight = document.getElementById("stopLight");
-
-stopButton.addEventListener("click", clickStop);
-
 function clickStop() {
   reset();
   stopLight.classList.add("stop");
 }
+
+// =============== SUPPORT FUNCTIONS ==================
+
+goButton.addEventListener("click", clickGo);
+slowButton.addEventListener("click", clickSlow);
+stopButton.addEventListener("click", clickStop);
 
 function reset() {
   goLight.classList.remove("go");
