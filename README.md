@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/Spawn9986/stop-light-exercise/blob/main/stoplight.gif" alt="project-screenshot" width="790" height="914/">
+<img src="https://github.com/Spawn9986/stop-light-exercise/blob/main/stoplight.gif" alt="project-screenshot" width="474" height="548/">
 
 <h2>💻 Built with</h2>
 
